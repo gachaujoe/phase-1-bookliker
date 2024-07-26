@@ -1,4 +1,23 @@
 body {
-	display: grid;
-	grid-template-columns: 2fr 8fr
+    font-family: Arial, sans-serif;
+}
+#app {
+    display: flex;
+}
+#book-list {
+    width: 30%;
+    padding: 20px;
+}
+#book-details {
+    width: 70%;
+    padding: 20px;
+}
+#list {
+    list-style-type: none;
+    padding: 0;
+}
+.book-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
 }
